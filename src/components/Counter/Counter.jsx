@@ -27,14 +27,7 @@ const Counter =()=>{
 
     }, [timerOn]);
 
-    const milisecndStyleObj={
-        width: '350px',
-        height: '280px'
-    }
-    const iconStyleObj={
-        width:'350px',
-        height: '280px'
-    }
+   
     const startStyle={
         color:'green',
         text: 'white'
@@ -55,7 +48,7 @@ const Counter =()=>{
 
     return(
         <div className="Counter">
-            <i className="fa-solid fa-clock" style={iconStyleObj} /><div className="Milisecnd" style={milisecndStyleObj}>{time}</div>
+            <i className="fa-solid fa-clock" /><div className="Milisecnd">{time}</div>
                 
                 <div>
                     <button onClick={()=>setTimerOn(true)} style={startStyle}>Start</button>
