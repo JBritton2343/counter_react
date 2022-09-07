@@ -14,7 +14,7 @@ const Counter =()=>{
 
             interval = setInterval(()=>{
                 setTime(prevTime => prevTime + 10)
-            }, 10)
+            }, 1000)
 
         }
         else {
@@ -44,7 +44,7 @@ const Counter =()=>{
         color: "blue",
         text: 'yellow'
     }
-    const milisecndStyle={
+    const secndStyle={
         width: "lg",
         height: "xl",
         fontSize: "40px"
@@ -53,7 +53,7 @@ const Counter =()=>{
 
     return(
         <div>
-           <div className="Milisecnd" style ={milisecndStyle}> <i className="fa-solid fa-clock" />{time}</div>
+           <div className="Second" style ={secndStyle}> <i className="fa-solid fa-clock" />{time}</div>
                 
                 <div>
                     <button onClick={()=>setTimerOn(true)} style={startStyle}>Start</button>
