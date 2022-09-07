@@ -47,7 +47,7 @@ const Counter =()=>{
     const milisecndStyle={
         width: "lg",
         height: "xl",
-        font: "26px"
+        fontSize: "26px"
     }
    
 
