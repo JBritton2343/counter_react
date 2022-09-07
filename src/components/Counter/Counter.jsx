@@ -48,7 +48,7 @@ const Counter =()=>{
 
     return(
         <div className="Counter">
-            <i className="fa-solid fa-clock" /><div className="Milisecnd">{time}</div>
+           <div className="Milisecnd"> <i className="fa-solid fa-clock" />{time}</div>
                 
                 <div>
                     <button onClick={()=>setTimerOn(true)} style={startStyle}>Start</button>
