@@ -1,12 +1,12 @@
 import React from "react";
-
+import {useEffect, useState} from "react";
 
 const Counter =()=>{
 
-    const [time, setTime] = React.useState(0);
-    const [timerOn, setTimerOn] = React.useState(false);
+    const [time, setTime] = useState(0);
+    const [timerOn, setTimerOn] = useState(false);
 
-    React.useEffect(()=>{
+    useEffect(()=>{
 
         let interval = null;
 
