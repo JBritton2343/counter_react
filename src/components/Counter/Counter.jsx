@@ -6,7 +6,7 @@ const Counter =()=>{
     const [time, setTime] = React.useState(0);
     const [timerOn, setTimerOn] = React.useState(false);
 
-    React.useEffect=(()=>{
+    React.useEffect(()=>{
 
         let interval = null;
 
