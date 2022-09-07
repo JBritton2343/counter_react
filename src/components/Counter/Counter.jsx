@@ -47,7 +47,7 @@ const Counter =()=>{
    
 
     return(
-        <div className="Counter">
+        <div>
            <div className="Milisecnd"> <i className="fa-solid fa-clock" />{time}</div>
                 
                 <div>
