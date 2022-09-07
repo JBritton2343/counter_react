@@ -44,15 +44,16 @@ const Counter =()=>{
         color: "blue",
         text: 'yellow'
     }
-    const MilisecndStyle={
+    const milisecndStyle={
         width: "lg",
-        height: "xl"
+        height: "xl",
+        fontsize: "16rem"
     }
    
 
     return(
         <div>
-           <div className="Milisecnd" style ={MilisecndStyle}> <i className="fa-solid fa-clock" />{time}</div>
+           <div className="Milisecnd" style ={milisecndStyle}> <i className="fa-solid fa-clock" />{time}</div>
                 
                 <div>
                     <button onClick={()=>setTimerOn(true)} style={startStyle}>Start</button>
