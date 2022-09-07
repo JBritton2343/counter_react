@@ -13,7 +13,7 @@ const Counter =()=>{
         if (timerOn){
 
             interval = setInterval(()=>{
-                setTime(prevTime => prevTime + 10)
+                setTime(prevTime => prevTime + 1)
             }, 1000)
 
         }
