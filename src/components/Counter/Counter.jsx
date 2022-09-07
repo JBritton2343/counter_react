@@ -45,8 +45,8 @@ const Counter =()=>{
         text: 'yellow'
     }
     const MilisecndStyle={
-        width: "100%",
-        height: "100%"
+        width: "lg",
+        height: "xl"
     }
    
 
