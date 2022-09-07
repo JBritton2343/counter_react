@@ -42,7 +42,7 @@ const Counter =()=>{
     }
     const resumeStyle={
         color: "blue",
-        test: 'yellow'
+        text: 'yellow'
     }
    
 
